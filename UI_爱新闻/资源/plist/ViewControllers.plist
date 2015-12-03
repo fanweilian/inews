@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>新闻</string>
+		<key>icon</key>
+		<string>news</string>
+		<key>viewController</key>
+		<string>NewsFrameViewController</string>
+		<key>titleImage</key>
+		<string>news_title</string>
+		<key>urlFormat</key>
+		<string>http://api.ipadown.com/apple-news-client/news.list.php?category_ids=%@&amp;max_id=%ld&amp;count=%ld</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>应用</string>
+		<key>icon</key>
+		<string>apps</string>
+		<key>viewController</key>
+		<string>AppsFrameViewController</string>
+		<key>titleImage</key>
+		<string>apps_title</string>
+		<key>urlFormat</key>
+		<string>http://api.ipadown.com/iphone-client/apps.list.php?device=iPhone&amp;t=commend&amp;count=%ld&amp;page=%ld&amp;device=iPhone&amp;price=%@</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>专题</string>
+		<key>icon</key>
+		<string>zt</string>
+		<key>viewController</key>
+		<string>ProjectViewController</string>
+		<key>titleImage</key>
+		<string>zt_title</string>
+		<key>urlFormat</key>
+		<string>http://api.ipadown.com/iphone-client/zt.list.php?parent_id=4118&amp;count=%ld&amp;page=%ld</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>壁纸</string>
+		<key>icon</key>
+		<string>pic</string>
+		<key>viewController</key>
+		<string>WallPaperViewController</string>
+		<key>titleImage</key>
+		<string>pic_title</string>
+		<key>urlFormat</key>
+		<string>http://api.ipadown.com/pic/pic.api.php?page=%ld&amp;count=%ld&amp;category=%ld&amp;orderby=rand&amp;device=iPhone</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>更多</string>
+		<key>icon</key>
+		<string>more</string>
+		<key>viewController</key>
+		<string>MoreViewController</string>
+		<key>titleImage</key>
+		<string>more_title</string>
+		<key>urlFormat</key>
+		<string></string>
+	</dict>
+</array>
+</plist>
